@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -27,9 +30,14 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  
+  background-color:white ;
+  color: black;
 }
-
+.dark {
+  background-color: black;
+  color: white;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
